@@ -1,0 +1,15 @@
+spring:
+  profiles: dev
+  thymeleaf:
+    cache: false
+
+debug: true
+profileName: Development
+---
+spring:
+  profiles: pro
+  thymeleaf:
+      cache: true
+
+debug: false
+profileName: Production

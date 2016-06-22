@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar  target/Auditoria-1.0-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -Dspring.profiles.active=pro -jar  target/Auditoria-1.0-SNAPSHOT.jar
