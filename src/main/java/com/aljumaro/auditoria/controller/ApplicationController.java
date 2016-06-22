@@ -12,13 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class ApplicationController {
 
-    @RequestMapping("/login")
-    public String loginPage(){
-        return "login";
-    }
-
     @RequestMapping
     public String basePage(){
-        return "home";
+        return "index";
     }
 }
