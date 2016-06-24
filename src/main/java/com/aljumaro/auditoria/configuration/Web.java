@@ -12,7 +12,7 @@ import java.util.List;
 
 @Configuration
 @EnableWebMvc
-public class WebConfiguration extends WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter {
+public class Web extends WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter {
 
     /* Here we register the Hibernate5Module into an ObjectMapper, then set this custom-configured ObjectMapper
          * to the MessageConverter and return it to be added to the HttpMessageConverters of our application*/
