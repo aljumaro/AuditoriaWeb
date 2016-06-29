@@ -1,4 +1,4 @@
-package com.aljumaro.auditoria.Exception;
+package com.aljumaro.auditoria.exception;
 
 /**
  * @Date 24/06/2016

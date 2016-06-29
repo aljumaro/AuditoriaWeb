@@ -1,4 +1,5 @@
-Feature: Checkout 2
+@Checkout
+Feature: Checkout
 	This is the description of the feature, which can
 	span multiple lines.
 	You can even include empty lines, like this one:

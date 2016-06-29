@@ -1,4 +1,4 @@
-package com.aljumaro.auditoria;
+package com.aljumaro.auditoria.cucumber.checkout;
 
 public class Checkout {
 
