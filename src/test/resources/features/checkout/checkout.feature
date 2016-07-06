@@ -1,4 +1,4 @@
-@Checkout
+@Checkout @nightly
 Feature: Checkout
 	This is the description of the feature, which can
 	span multiple lines.

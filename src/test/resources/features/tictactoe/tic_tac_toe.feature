@@ -1,3 +1,4 @@
+@nightly
 Feature: Play tic tac toe
 	Scenario: Place token
 		Given i have a board like this:
