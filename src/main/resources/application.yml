@@ -1,9 +1,14 @@
+
 spring:
   profiles: dev
   thymeleaf:
     cache: false
 
 profileName: Development
+
+logging:
+  level:
+    org.springframework: INFO
 ---
 spring:
   profiles: pro

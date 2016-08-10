@@ -1,5 +1,6 @@
-package com.aljumaro.auditoria.configuration;
+package com.aljumaro.auditoria.configuration.security;
 
+import com.aljumaro.auditoria.configuration.Constants;
 import com.aljumaro.auditoria.configuration.security.RestAccessDeniedHandler;
 import com.aljumaro.auditoria.configuration.security.RestAuthenticationFailureHandler;
 import com.aljumaro.auditoria.configuration.security.RestAuthenticationSuccessHandler;
